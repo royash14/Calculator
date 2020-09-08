@@ -48,6 +48,7 @@
             this.btnSub = new System.Windows.Forms.Button();
             this.btnCLR = new System.Windows.Forms.Button();
             this.btnPcnt = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -288,12 +289,25 @@
             this.btnPcnt.UseVisualStyleBackColor = false;
             this.btnPcnt.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(481, 455);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(107, 95);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "ANS";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_2);
+            // 
             // Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(618, 582);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnPcnt);
             this.Controls.Add(this.btnCLR);
             this.Controls.Add(this.btnSub);
@@ -344,6 +358,7 @@
         private System.Windows.Forms.Button btnSub;
         private System.Windows.Forms.Button btnCLR;
         private System.Windows.Forms.Button btnPcnt;
+        private System.Windows.Forms.Button button1;
     }
 }
 

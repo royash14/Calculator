@@ -20,6 +20,7 @@ namespace Calculator
 
         private string preVal;
         private string result;
+        private string ANS;
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -126,7 +127,8 @@ namespace Calculator
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-
+            preVal = textBox1.Text;
+            textBox1.AppendText("%");
         }
 
         private void btnEquals_Click(object sender, EventArgs e)
@@ -135,6 +137,12 @@ namespace Calculator
             result = new DataTable().Compute(temp, null).ToString();
             textBox1.Text = result;
             preVal = result;
+            ANS = result;
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            textBox1.Text = ANS;
         }
     }
 }

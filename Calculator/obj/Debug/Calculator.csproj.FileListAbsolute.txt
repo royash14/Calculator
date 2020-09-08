@@ -8,3 +8,13 @@ C:\Users\User\source\repos\Calculator\Calculator\obj\Debug\Calculator.csproj.Cor
 C:\Users\User\source\repos\Calculator\Calculator\obj\Debug\Calculator.exe
 C:\Users\User\source\repos\Calculator\Calculator\obj\Debug\Calculator.pdb
 C:\Users\User\source\repos\Calculator\Calculator\obj\Debug\Calculator.Calculator.resources
+D:\Github\Calculator\Calculator\bin\Debug\Calculator.exe.config
+D:\Github\Calculator\Calculator\bin\Debug\Calculator.exe
+D:\Github\Calculator\Calculator\bin\Debug\Calculator.pdb
+D:\Github\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+D:\Github\Calculator\Calculator\obj\Debug\Calculator.Calculator.resources
+D:\Github\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+D:\Github\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+D:\Github\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+D:\Github\Calculator\Calculator\obj\Debug\Calculator.exe
+D:\Github\Calculator\Calculator\obj\Debug\Calculator.pdb
