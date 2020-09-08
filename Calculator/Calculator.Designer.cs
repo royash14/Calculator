@@ -47,6 +47,7 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnSub = new System.Windows.Forms.Button();
             this.btnCLR = new System.Windows.Forms.Button();
+            this.btnPcnt = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -275,12 +276,25 @@
             this.btnCLR.UseVisualStyleBackColor = false;
             this.btnCLR.Click += new System.EventHandler(this.btnCLR_Click);
             // 
+            // btnPcnt
+            // 
+            this.btnPcnt.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnPcnt.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPcnt.Location = new System.Drawing.Point(368, 456);
+            this.btnPcnt.Name = "btnPcnt";
+            this.btnPcnt.Size = new System.Drawing.Size(107, 95);
+            this.btnPcnt.TabIndex = 19;
+            this.btnPcnt.Text = "%";
+            this.btnPcnt.UseVisualStyleBackColor = false;
+            this.btnPcnt.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(618, 582);
+            this.Controls.Add(this.btnPcnt);
             this.Controls.Add(this.btnCLR);
             this.Controls.Add(this.btnSub);
             this.Controls.Add(this.btnAdd);
@@ -329,6 +343,7 @@
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnSub;
         private System.Windows.Forms.Button btnCLR;
+        private System.Windows.Forms.Button btnPcnt;
     }
 }
 

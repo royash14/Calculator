@@ -124,6 +124,11 @@ namespace Calculator
             textBox1.Text = "/";
         }
 
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
         private void btnEquals_Click(object sender, EventArgs e)
         {
             string temp = preVal + textBox1.Text;
