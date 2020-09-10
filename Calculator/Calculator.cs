@@ -137,16 +137,30 @@ namespace Calculator
 
         private void btnEquals_Click(object sender, EventArgs e)
         {
-            string temp = preVal + textBox1.Text;
-            result = new DataTable().Compute(temp, null).ToString();
-            textBox1.Text = result;
-            preVal = result;
-            ANS = result;
+            try
+            {
+                string temp = preVal + textBox1.Text;
+                result = new DataTable().Compute(temp, null).ToString();
+                textBox1.Text = result;
+                preVal = result;
+                ANS = result;
+            }
+            catch(SyntaxErrorException SEE)
+            {
+                MessageBox.Show("Invalid input!");
+                Console.WriteLine(SEE.StackTrace);
+            }
+            catch(EvaluateException EE)
+            {
+                MessageBox.Show("Error in computing value.");
+                Console.WriteLine(EE.StackTrace);
+            }
+            
         }
 
         private void button1_Click_2(object sender, EventArgs e)
         {
-            textBox1.Text = ANS;
+            textBox1.AppendText(ANS);
         }
     }
 }
