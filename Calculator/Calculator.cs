@@ -104,24 +104,28 @@ namespace Calculator
         private void btnAdd_Click(object sender, EventArgs e)
         {
             preVal = textBox1.Text;
+            textBox2.Text = preVal;
             textBox1.Text = "+";
         }
 
         private void btnSub_Click(object sender, EventArgs e)
         {
             preVal = textBox1.Text;
+            textBox2.Text = preVal;
             textBox1.Text = "-";
         }
 
         private void btnMul_Click(object sender, EventArgs e)
         {
             preVal = textBox1.Text;
+            textBox2.Text = preVal;
             textBox1.Text = "*";
         }
 
         private void btnDiv_Click(object sender, EventArgs e)
         {
             preVal = textBox1.Text;
+            textBox2.Text = preVal;
             textBox1.Text = "/";
         }
 
